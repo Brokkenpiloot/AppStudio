@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mr. Potatohead</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="checkbox_name_arms">Arms</string>
+    <string name="checkbox_name_ears">Ears</string>
+    <string name="checkbox_name_eyebrows">Eyebrows</string>
+    <string name="checkbox_name_eyes">Eyes</string>
+    <string name="checkbox_name_glasses">Glasses</string>
+    <string name="checkbox_name_hat">Hat</string>
+    <string name="checkbox_name_mouth">Mouth</string>
+    <string name="checkbox_name_mustache">Mustache</string>
+    <string name="checkbox_name_nose">Nose</string>
+    <string name="checkbox_name_shoes">Shoes</string>
+    <string name="contentdescription_body">Mr. Potatohead\'s body</string>
+    <string name="contentdescription_arms">Mr. Potatohead\'s arms</string>
+    <string name="contentdescription_ears">Mr. Potatohead\'s ears</string>
+    <string name="contentdescription_eyebrows">Mr. Potatohead\'s eyebrows</string>
+    <string name="contentdescription_eyes">Mr. Potatohead\'s eyes</string>
+    <string name="contentdescription_glasses">Mr. Potatohead\'s glasses</string>
+    <string name="contentdescription_hat">Mr. Potatohead\'s hat</string>
+    <string name="contentdescription_mouth">Mr. Potatohead\'s mouth</string>
+    <string name="contentdescription_mustache">Mr. Potatohead\'s mustache</string>
+    <string name="contentdescription_nose">Mr. Potatohead\'s nose</string>
+    <string name="contentdescription_shoes">Mr. Potatohead\'s shoes</string>
+
+</resources>
