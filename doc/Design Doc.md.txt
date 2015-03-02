@@ -1,0 +1,24 @@
+![Alt text](C:\Users\startklaar\Documents\GitHub\Ghost\20150226_163115.jpg)
+
+Deze schermen vergen een user class, zodat users hun naam in kunnen vullen en dit vervolgens een user met die naam construct.
+Deze user moet vervolgens, bij construction, een score van 0 hebben, die bij elke winst incremented kan worden.
+
+![Alt text](C:\Users\startklaar\Documents\GitHub\Ghost\20150226_163121.jpg)
+
+Om het game te kunnen runnen is vervolgens een dictionary class nodig, die de dictionary files kan lezen en daar alle woorden uit kan plukken.
+Vervolgens is er een check functie nodig, om na elke user input te checken of het spel is afgelopen en zo ja, wie er dan wint.
+
+![Alt text](C:\Users\startklaar\Documents\GitHub\Ghost\20150226_163158.jpg)
+
+De gene die volgens de checker gewonnen heeft krijgt een taartje aangeboden.
+Vervolgens moet het highscore scherm alle bestaande user objects kunne raporteren.
+
+![Alt text](C:\Users\startklaar\Documents\GitHub\Ghost\20150226_163209.jpg)
+
+In het menu moet het spel op verschillende plekken opnieuw opgestart kunnen worden.
+Daarvoor moeten de juiste schermen naar voren gehaald, en moeten de juiste objecten opnieuw aangemaakt worden.
+In het change names geval moeten de namen die opdat moment gebruikt zijn verwijderd worden. Anders loop je de kans dat die namen, met een score van 0, in je highscore board blijven opdagen.
+Bij restart moet het spel simpelweg bij het begin beginnen.
+De change language knop moet een nieuw dictionary object aanmaken met de dictionary method.
+Scoreboard hoeft simpelweg het scoreboard er weer bij te pakken.
+
