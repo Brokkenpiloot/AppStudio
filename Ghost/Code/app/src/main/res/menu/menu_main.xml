@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/replayMenuItem" android:title="@string/replayButton"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/changeNamesMenuItem" android:title="@string/homeScreenButton"
+        android:orderInCategory="101" app:showAsAction="never" />
+
+    <item android:id="@+id/scoreboardMenuItem" android:title="@string/scoreboardButton"
+        android:orderInCategory="103" app:showAsAction="never" />
+
+</menu>
