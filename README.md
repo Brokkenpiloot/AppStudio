@@ -14,10 +14,3 @@ Om dit programma te kunnen runnen dient eerst matplotlib geinstaleerd te worden 
 
 Het algoritme, de simulation functie, wordt op de volgende manier gerund: simulation(game(breakPoint, solutions)).
 De timer functie, die extra informatie verzameld over het runnen van het algoritme en dit ook kan plotten, wordt op de volgende manier gerund: Timer(simulation(game(breakPoint, solutions)), numberOfLoops, breakPoint).
-
-
-
-=======
-# Laughder
-Dating app where matches are based on whether you can make eachother laugh
->>>>>>> 57290187df8de7aa9b4ab71d3661bf1417703fe9

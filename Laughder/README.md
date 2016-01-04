@@ -54,6 +54,10 @@ Furthermore, user information will be saved in a file or multiple files as well.
 
 - Last but not least there should be a settings page, allowign the user to change matchmaking criteria's, and other things that will eventually pop up during the proces of making the app.
 
+The first four screens have been roughly sketched in the following images. The settingsscreen will be completely vanilla.
+
+![](doc/20160104_152349.jpg)
+![](doc/20160104_152356.jpg)
 
 ## Short review of inspirational app
 
