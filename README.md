@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Heuristieken
 Case: RushHour
 
@@ -16,3 +17,7 @@ De timer functie, die extra informatie verzameld over het runnen van het algorit
 
 
 
+=======
+# Laughder
+Dating app where matches are based on whether you can make eachother laugh
+>>>>>>> 57290187df8de7aa9b4ab71d3661bf1417703fe9
