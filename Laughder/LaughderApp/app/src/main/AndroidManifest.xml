@@ -18,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".BrowseActivity"
+            android:label="@string/username" >
+        </activity>
         <meta-data
             android:name="com.parse.APPLICATION_ID"
             android:value="U2IA6ByBy4YpJeBNAOi41nx41SgQR5uxbhEF2gWR" />

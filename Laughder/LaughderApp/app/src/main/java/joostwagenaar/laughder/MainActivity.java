@@ -1,21 +1,19 @@
 package joostwagenaar.laughder;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 import com.parse.Parse;
 import com.parse.ParseObject;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     EditText usernameEditText;
     EditText passwordEditText;
@@ -26,7 +24,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("Joost", "onCreate started");
+        Log.d("Joost", "Main onCreate started");
         setContentView(R.layout.activity_main);
         usernameEditText = (EditText) findViewById(R.id.usernameEditText);
         passwordEditText = (EditText) findViewById(R.id.passwordEditText);
@@ -36,7 +34,7 @@ public class MainActivity extends ActionBarActivity {
         Parse.enableLocalDatastore(this);
         Parse.initialize(this);
         ParseObject testObject = new ParseObject("TestObject");
-        testObject.put("foo", "bar");
+        testObject.put("username", "Joost");
         testObject.put("bit", "bot");
         testObject.saveInBackground();
     }
@@ -48,13 +46,20 @@ public class MainActivity extends ActionBarActivity {
 
         if(username.length() != 0 && password.length() != 0) {
             // add a password check using parse
-            browseScreen = new Intent(this, BroweActivity.class);
+            Log.d("Joost", "Log in 'accepted'");
+            browseScreen = new Intent(this, BrowseActivity.class);
+            Log.d("Joost", "Intent initialised");
             browseScreen.putExtra("User", username);
+            Log.d("Joost", "Added string to Intent ");
             startActivity(browseScreen);
+            Log.d("Joost", "Activity started");
+            finish();
+            Log.d("Joost", "Main activity finished");
 
 
         }
         else {
+            Log.d("Joost", "Log in 'failed'");
             Toast.makeText(getApplicationContext(), "Please fill in both text boxes",
                     Toast.LENGTH_LONG).show();
         }

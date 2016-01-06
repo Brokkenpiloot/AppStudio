@@ -28,6 +28,7 @@
         android:layout_below="@id/passwordEditText"
         android:id="@+id/loginButton"
         android:text="@string/log_in"
+        android:onClick="onLoginButtonClicked"
         android:textSize="20sp"  />
 
     <EditText
